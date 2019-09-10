@@ -14,7 +14,30 @@ Vue CLI v3.6.2
 ? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? In dedicated config files
 ? Save this as a preset for future projects? Yes
 
+`$ cd vue-props`  
+`$ yarn serve`
 
+## deploy  
+
+[![NPM](https://nodei.co/npm/gh-pages.png?downloads=true&stars=true)](https://nodei.co/npm/gh-pages/)   
+npm [gh-pages](https://www.npmjs.com/package/gh-pages)  
+`npm install gh-pages --save-dev`  
+
+package.json
+```js
+  "scripts": {
+	...
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+```
+
+vue.config.js 
+```js
+module.exports = {
+    publicPath: 'vue-props'   
+}
+```
+https://jacobhsu.github.io/vue-props  
 
 ## Project setup
 ```
