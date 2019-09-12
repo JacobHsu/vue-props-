@@ -39,6 +39,18 @@ module.exports = {
 ```
 https://jacobhsu.github.io/vue-props  
 
+
+# Note
+
+父子元件溝通(Props down, Events up) 
+
+![Props down, Events up](https://d1dwq032kyr03c.cloudfront.net/upload/images/20180105/20107673f0zb0ZxRz9.png)
+
+# Debug
+
+import Child from './Children.vue' fail
+`npm install --save core-js`  
+
 ## Project setup
 ```
 yarn install
