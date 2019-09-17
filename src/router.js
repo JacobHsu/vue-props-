@@ -19,6 +19,11 @@ export default new Router({
       component: () => import('./components/Father.vue')
     },
     {
+      path: '/brother',
+      name: 'Brother',
+      component: () => import('./components/Brother.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting

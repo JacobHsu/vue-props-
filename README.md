@@ -46,6 +46,8 @@ https://jacobhsu.github.io/vue-props
 
 ![Props down, Events up](https://d1dwq032kyr03c.cloudfront.net/upload/images/20180105/20107673f0zb0ZxRz9.png)
 
+eventBus [兄弟组件间通信](https://www.helloweba.net/javascript/614.html)  
+
 # Debug
 
 import Child from './Children.vue' fail
